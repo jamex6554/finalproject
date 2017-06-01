@@ -49,10 +49,12 @@ The initial state is set to `user`.
 
 
 user能到三個state，有一條又接兩個state，
+
 一個輸入『心好累』，會回『弟怎了，私』後回user
+
 一個輸入『我也喜歡玖壹壹』，會回『品味不錯兄弟\n這首-> https://www.youtube.com/watch?v=JvkqZrYJUe8』
+
 一個輸入『看三小』，會回『你現在是在挑釁』進下個state，再輸入『是又怎樣』，會回『幹出來挑』進下個trap state，再輸入任何東西，會回『諒你不敢啦孬種』，但輸入『我工程師，體諒下』，會不回話，且回到user state
 
 
-## Author
-[Lee-W](https://github.com/Lee-W)
+
